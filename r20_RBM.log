@@ -1,0 +1,262 @@
+Files already downloaded and verified
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+LambdaLayer
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Conv2d
+BatchNorm2d
+Conv2d
+BatchNorm2d
+Sequential
+BasicBlock
+Sequential
+Linear
+ResNetRBN
+Epoch:1 Test set: Average loss: 1.4186, Accuracy: 5022/10000 (50.22%) [Error 49.78%]
+Epoch:2 Test set: Average loss: 1.3447, Accuracy: 5572/10000 (55.72%) [Error 44.28%]
+Epoch:3 Test set: Average loss: 1.2872, Accuracy: 5526/10000 (55.26%) [Error 44.74%]
+Epoch:4 Test set: Average loss: 1.0002, Accuracy: 6534/10000 (65.34%) [Error 34.66%]
+Epoch:5 Test set: Average loss: 0.8801, Accuracy: 7084/10000 (70.84%) [Error 29.16%]
+Epoch:6 Test set: Average loss: 1.2775, Accuracy: 6140/10000 (61.40%) [Error 38.60%]
+Epoch:7 Test set: Average loss: 0.8222, Accuracy: 7290/10000 (72.90%) [Error 27.10%]
+Epoch:8 Test set: Average loss: 0.7870, Accuracy: 7407/10000 (74.07%) [Error 25.93%]
+Epoch:9 Test set: Average loss: 1.0214, Accuracy: 6786/10000 (67.86%) [Error 32.14%]
+Epoch:10 Test set: Average loss: 0.8725, Accuracy: 7058/10000 (70.58%) [Error 29.42%]
+Epoch:11 Test set: Average loss: 0.9914, Accuracy: 6961/10000 (69.61%) [Error 30.39%]
+Epoch:12 Test set: Average loss: 1.0441, Accuracy: 6829/10000 (68.29%) [Error 31.71%]
+Epoch:13 Test set: Average loss: 0.6500, Accuracy: 7719/10000 (77.19%) [Error 22.81%]
+Epoch:14 Test set: Average loss: 0.7857, Accuracy: 7469/10000 (74.69%) [Error 25.31%]
+Epoch:15 Test set: Average loss: 0.8288, Accuracy: 7255/10000 (72.55%) [Error 27.45%]
+Epoch:16 Test set: Average loss: 0.7978, Accuracy: 7410/10000 (74.10%) [Error 25.90%]
+Epoch:17 Test set: Average loss: 0.6330, Accuracy: 7827/10000 (78.27%) [Error 21.73%]
+Epoch:18 Test set: Average loss: 0.5825, Accuracy: 8042/10000 (80.42%) [Error 19.58%]
+Epoch:19 Test set: Average loss: 0.7052, Accuracy: 7637/10000 (76.37%) [Error 23.63%]
+Epoch:20 Test set: Average loss: 0.7207, Accuracy: 7742/10000 (77.42%) [Error 22.58%]
+Epoch:21 Test set: Average loss: 0.6643, Accuracy: 7763/10000 (77.63%) [Error 22.37%]
+Epoch:22 Test set: Average loss: 1.0745, Accuracy: 6870/10000 (68.70%) [Error 31.30%]
+Epoch:23 Test set: Average loss: 0.6912, Accuracy: 7750/10000 (77.50%) [Error 22.50%]
+Epoch:24 Test set: Average loss: 0.6033, Accuracy: 7943/10000 (79.43%) [Error 20.57%]
+Epoch:25 Test set: Average loss: 0.6078, Accuracy: 8040/10000 (80.40%) [Error 19.60%]
+Epoch:26 Test set: Average loss: 0.5984, Accuracy: 7983/10000 (79.83%) [Error 20.17%]
+Epoch:27 Test set: Average loss: 0.5393, Accuracy: 8117/10000 (81.17%) [Error 18.83%]
+Epoch:28 Test set: Average loss: 0.8428, Accuracy: 7360/10000 (73.60%) [Error 26.40%]
+Epoch:29 Test set: Average loss: 0.5201, Accuracy: 8214/10000 (82.14%) [Error 17.86%]
+Epoch:30 Test set: Average loss: 0.7091, Accuracy: 7670/10000 (76.70%) [Error 23.30%]
+Epoch:31 Test set: Average loss: 0.7958, Accuracy: 7530/10000 (75.30%) [Error 24.70%]
+Epoch:32 Test set: Average loss: 1.0574, Accuracy: 7013/10000 (70.13%) [Error 29.87%]
+Epoch:33 Test set: Average loss: 0.7284, Accuracy: 7655/10000 (76.55%) [Error 23.45%]
+Epoch:34 Test set: Average loss: 0.5843, Accuracy: 8061/10000 (80.61%) [Error 19.39%]
+Epoch:35 Test set: Average loss: 0.6764, Accuracy: 7785/10000 (77.85%) [Error 22.15%]
+Epoch:36 Test set: Average loss: 0.7329, Accuracy: 7671/10000 (76.71%) [Error 23.29%]
+Epoch:37 Test set: Average loss: 0.6106, Accuracy: 7930/10000 (79.30%) [Error 20.70%]
+Epoch:38 Test set: Average loss: 0.6666, Accuracy: 7916/10000 (79.16%) [Error 20.84%]
+Epoch:39 Test set: Average loss: 0.4935, Accuracy: 8373/10000 (83.73%) [Error 16.27%]
+Epoch:40 Test set: Average loss: 0.6650, Accuracy: 7782/10000 (77.82%) [Error 22.18%]
+Epoch:41 Test set: Average loss: 0.7849, Accuracy: 7577/10000 (75.77%) [Error 24.23%]
+Epoch:42 Test set: Average loss: 0.7495, Accuracy: 7566/10000 (75.66%) [Error 24.34%]
+Epoch:43 Test set: Average loss: 0.8231, Accuracy: 7558/10000 (75.58%) [Error 24.42%]
+Epoch:44 Test set: Average loss: 0.9917, Accuracy: 7108/10000 (71.08%) [Error 28.92%]
+Epoch:45 Test set: Average loss: 0.6846, Accuracy: 7855/10000 (78.55%) [Error 21.45%]
+Epoch:46 Test set: Average loss: 0.8003, Accuracy: 7536/10000 (75.36%) [Error 24.64%]
+Epoch:47 Test set: Average loss: 0.6169, Accuracy: 8032/10000 (80.32%) [Error 19.68%]
+Epoch:48 Test set: Average loss: 0.5606, Accuracy: 8143/10000 (81.43%) [Error 18.57%]
+Epoch:49 Test set: Average loss: 0.6294, Accuracy: 7903/10000 (79.03%) [Error 20.97%]
+Epoch:50 Test set: Average loss: 1.2838, Accuracy: 6577/10000 (65.77%) [Error 34.23%]
+Epoch:51 Test set: Average loss: 0.9067, Accuracy: 7279/10000 (72.79%) [Error 27.21%]
+Epoch:52 Test set: Average loss: 0.6812, Accuracy: 7813/10000 (78.13%) [Error 21.87%]
+Epoch:53 Test set: Average loss: 0.6263, Accuracy: 7937/10000 (79.37%) [Error 20.63%]
+Epoch:54 Test set: Average loss: 0.6399, Accuracy: 7929/10000 (79.29%) [Error 20.71%]
+Epoch:55 Test set: Average loss: 0.7983, Accuracy: 7586/10000 (75.86%) [Error 24.14%]
+Epoch:56 Test set: Average loss: 0.6503, Accuracy: 7815/10000 (78.15%) [Error 21.85%]
+Epoch:57 Test set: Average loss: 0.7791, Accuracy: 7659/10000 (76.59%) [Error 23.41%]
+Epoch:58 Test set: Average loss: 0.7578, Accuracy: 7543/10000 (75.43%) [Error 24.57%]
+Epoch:59 Test set: Average loss: 0.5894, Accuracy: 7974/10000 (79.74%) [Error 20.26%]
+Epoch:60 Test set: Average loss: 0.5975, Accuracy: 8072/10000 (80.72%) [Error 19.28%]
+Epoch:61 Test set: Average loss: 0.9315, Accuracy: 7387/10000 (73.87%) [Error 26.13%]
+Epoch:62 Test set: Average loss: 0.5981, Accuracy: 7959/10000 (79.59%) [Error 20.41%]
+Epoch:63 Test set: Average loss: 0.5898, Accuracy: 8018/10000 (80.18%) [Error 19.82%]
+Epoch:64 Test set: Average loss: 1.3027, Accuracy: 6533/10000 (65.33%) [Error 34.67%]
+Epoch:65 Test set: Average loss: 0.4800, Accuracy: 8357/10000 (83.57%) [Error 16.43%]
+Epoch:66 Test set: Average loss: 0.6342, Accuracy: 7892/10000 (78.92%) [Error 21.08%]
+Epoch:67 Test set: Average loss: 0.8145, Accuracy: 7383/10000 (73.83%) [Error 26.17%]
+Epoch:68 Test set: Average loss: 0.6106, Accuracy: 7939/10000 (79.39%) [Error 20.61%]
+Epoch:69 Test set: Average loss: 0.5529, Accuracy: 8144/10000 (81.44%) [Error 18.56%]
+Epoch:70 Test set: Average loss: 0.6127, Accuracy: 8001/10000 (80.01%) [Error 19.99%]
+Epoch:71 Test set: Average loss: 0.6960, Accuracy: 7762/10000 (77.62%) [Error 22.38%]
+Epoch:72 Test set: Average loss: 0.5803, Accuracy: 7963/10000 (79.63%) [Error 20.37%]
+Epoch:73 Test set: Average loss: 0.7003, Accuracy: 7759/10000 (77.59%) [Error 22.41%]
+Epoch:74 Test set: Average loss: 0.6237, Accuracy: 7989/10000 (79.89%) [Error 20.11%]
+Epoch:75 Test set: Average loss: 0.6528, Accuracy: 7833/10000 (78.33%) [Error 21.67%]
+Epoch:76 Test set: Average loss: 0.6931, Accuracy: 7687/10000 (76.87%) [Error 23.13%]
+Epoch:77 Test set: Average loss: 0.5847, Accuracy: 8022/10000 (80.22%) [Error 19.78%]
+Epoch:78 Test set: Average loss: 0.8381, Accuracy: 7284/10000 (72.84%) [Error 27.16%]
+Epoch:79 Test set: Average loss: 0.6132, Accuracy: 7978/10000 (79.78%) [Error 20.22%]
+Epoch:80 Test set: Average loss: 0.6694, Accuracy: 7744/10000 (77.44%) [Error 22.56%]
+Epoch:81 Test set: Average loss: 0.6067, Accuracy: 7959/10000 (79.59%) [Error 20.41%]
+Epoch:82 Test set: Average loss: 0.6536, Accuracy: 7939/10000 (79.39%) [Error 20.61%]
+Epoch:83 Test set: Average loss: 0.2999, Accuracy: 8980/10000 (89.80%) [Error 10.20%]
+Epoch:84 Test set: Average loss: 0.2898, Accuracy: 9012/10000 (90.12%) [Error 9.88%]
+Epoch:85 Test set: Average loss: 0.2818, Accuracy: 9033/10000 (90.33%) [Error 9.67%]
+Epoch:86 Test set: Average loss: 0.2783, Accuracy: 9041/10000 (90.41%) [Error 9.59%]
+Epoch:87 Test set: Average loss: 0.2776, Accuracy: 9053/10000 (90.53%) [Error 9.47%]
+Epoch:88 Test set: Average loss: 0.2812, Accuracy: 9065/10000 (90.65%) [Error 9.35%]
+Epoch:89 Test set: Average loss: 0.2719, Accuracy: 9088/10000 (90.88%) [Error 9.12%]
+Epoch:90 Test set: Average loss: 0.2782, Accuracy: 9054/10000 (90.54%) [Error 9.46%]
+Epoch:91 Test set: Average loss: 0.2675, Accuracy: 9086/10000 (90.86%) [Error 9.14%]
+Epoch:92 Test set: Average loss: 0.2728, Accuracy: 9068/10000 (90.68%) [Error 9.32%]
+Epoch:93 Test set: Average loss: 0.2856, Accuracy: 9060/10000 (90.60%) [Error 9.40%]
+Epoch:94 Test set: Average loss: 0.2877, Accuracy: 9054/10000 (90.54%) [Error 9.46%]
+Epoch:95 Test set: Average loss: 0.2724, Accuracy: 9105/10000 (91.05%) [Error 8.95%]
+Epoch:96 Test set: Average loss: 0.3001, Accuracy: 9036/10000 (90.36%) [Error 9.64%]
+Epoch:97 Test set: Average loss: 0.3102, Accuracy: 8997/10000 (89.97%) [Error 10.03%]
+Epoch:98 Test set: Average loss: 0.2918, Accuracy: 9036/10000 (90.36%) [Error 9.64%]
+Epoch:99 Test set: Average loss: 0.2912, Accuracy: 9047/10000 (90.47%) [Error 9.53%]
+Epoch:100 Test set: Average loss: 0.3099, Accuracy: 9006/10000 (90.06%) [Error 9.94%]
+Epoch:101 Test set: Average loss: 0.2800, Accuracy: 9097/10000 (90.97%) [Error 9.03%]
+Epoch:102 Test set: Average loss: 0.3011, Accuracy: 9013/10000 (90.13%) [Error 9.87%]
+Epoch:103 Test set: Average loss: 0.3025, Accuracy: 9045/10000 (90.45%) [Error 9.55%]
+Epoch:104 Test set: Average loss: 0.2957, Accuracy: 9062/10000 (90.62%) [Error 9.38%]
+Epoch:105 Test set: Average loss: 0.2978, Accuracy: 9000/10000 (90.00%) [Error 10.00%]
+Epoch:106 Test set: Average loss: 0.3058, Accuracy: 8994/10000 (89.94%) [Error 10.06%]
+Epoch:107 Test set: Average loss: 0.3149, Accuracy: 9000/10000 (90.00%) [Error 10.00%]
+Epoch:108 Test set: Average loss: 0.3140, Accuracy: 8969/10000 (89.69%) [Error 10.31%]
+Epoch:109 Test set: Average loss: 0.3082, Accuracy: 8989/10000 (89.89%) [Error 10.11%]
+Epoch:110 Test set: Average loss: 0.3074, Accuracy: 9050/10000 (90.50%) [Error 9.50%]
+Epoch:111 Test set: Average loss: 0.3024, Accuracy: 9024/10000 (90.24%) [Error 9.76%]
+Epoch:112 Test set: Average loss: 0.3260, Accuracy: 8960/10000 (89.60%) [Error 10.40%]
+Epoch:113 Test set: Average loss: 0.3163, Accuracy: 8995/10000 (89.95%) [Error 10.05%]
+Epoch:114 Test set: Average loss: 0.3243, Accuracy: 8978/10000 (89.78%) [Error 10.22%]
+Epoch:115 Test set: Average loss: 0.3397, Accuracy: 8916/10000 (89.16%) [Error 10.84%]
+Epoch:116 Test set: Average loss: 0.3231, Accuracy: 9041/10000 (90.41%) [Error 9.59%]
+Epoch:117 Test set: Average loss: 0.3112, Accuracy: 8971/10000 (89.71%) [Error 10.29%]
+Epoch:118 Test set: Average loss: 0.3263, Accuracy: 8984/10000 (89.84%) [Error 10.16%]
+Epoch:119 Test set: Average loss: 0.3506, Accuracy: 8928/10000 (89.28%) [Error 10.72%]
+Epoch:120 Test set: Average loss: 0.3416, Accuracy: 8956/10000 (89.56%) [Error 10.44%]
+Epoch:121 Test set: Average loss: 0.3028, Accuracy: 9036/10000 (90.36%) [Error 9.64%]
+Epoch:122 Test set: Average loss: 0.3299, Accuracy: 8933/10000 (89.33%) [Error 10.67%]
+Epoch:123 Test set: Average loss: 0.4251, Accuracy: 8735/10000 (87.35%) [Error 12.65%]
+Epoch:124 Test set: Average loss: 0.2550, Accuracy: 9179/10000 (91.79%) [Error 8.21%]
+Epoch:125 Test set: Average loss: 0.2516, Accuracy: 9176/10000 (91.76%) [Error 8.24%]
+Epoch:126 Test set: Average loss: 0.2511, Accuracy: 9191/10000 (91.91%) [Error 8.09%]
+Epoch:127 Test set: Average loss: 0.2495, Accuracy: 9187/10000 (91.87%) [Error 8.13%]
+Epoch:128 Test set: Average loss: 0.2512, Accuracy: 9193/10000 (91.93%) [Error 8.07%]
+Epoch:129 Test set: Average loss: 0.2516, Accuracy: 9185/10000 (91.85%) [Error 8.15%]
+Epoch:130 Test set: Average loss: 0.2506, Accuracy: 9183/10000 (91.83%) [Error 8.17%]
+Epoch:131 Test set: Average loss: 0.2504, Accuracy: 9192/10000 (91.92%) [Error 8.08%]
+Epoch:132 Test set: Average loss: 0.2541, Accuracy: 9192/10000 (91.92%) [Error 8.08%]
+Epoch:133 Test set: Average loss: 0.2557, Accuracy: 9179/10000 (91.79%) [Error 8.21%]
+Epoch:134 Test set: Average loss: 0.2527, Accuracy: 9184/10000 (91.84%) [Error 8.16%]
+Epoch:135 Test set: Average loss: 0.2587, Accuracy: 9193/10000 (91.93%) [Error 8.07%]
+Epoch:136 Test set: Average loss: 0.2546, Accuracy: 9200/10000 (92.00%) [Error 8.00%]
+Epoch:137 Test set: Average loss: 0.2546, Accuracy: 9215/10000 (92.15%) [Error 7.85%]
+Epoch:138 Test set: Average loss: 0.2561, Accuracy: 9194/10000 (91.94%) [Error 8.06%]
+Epoch:139 Test set: Average loss: 0.2571, Accuracy: 9193/10000 (91.93%) [Error 8.07%]
+Epoch:140 Test set: Average loss: 0.2546, Accuracy: 9200/10000 (92.00%) [Error 8.00%]
+Epoch:141 Test set: Average loss: 0.2571, Accuracy: 9220/10000 (92.20%) [Error 7.80%]
+Epoch:142 Test set: Average loss: 0.2607, Accuracy: 9206/10000 (92.06%) [Error 7.94%]
+Epoch:143 Test set: Average loss: 0.2634, Accuracy: 9195/10000 (91.95%) [Error 8.05%]
+Epoch:144 Test set: Average loss: 0.2628, Accuracy: 9198/10000 (91.98%) [Error 8.02%]
+Epoch:145 Test set: Average loss: 0.2635, Accuracy: 9204/10000 (92.04%) [Error 7.96%]
+Epoch:146 Test set: Average loss: 0.2609, Accuracy: 9221/10000 (92.21%) [Error 7.79%]
+Epoch:147 Test set: Average loss: 0.2623, Accuracy: 9214/10000 (92.14%) [Error 7.86%]
+Epoch:148 Test set: Average loss: 0.2608, Accuracy: 9210/10000 (92.10%) [Error 7.90%]
+Epoch:149 Test set: Average loss: 0.2658, Accuracy: 9187/10000 (91.87%) [Error 8.13%]
+Epoch:150 Test set: Average loss: 0.2612, Accuracy: 9198/10000 (91.98%) [Error 8.02%]
+Epoch:151 Test set: Average loss: 0.2602, Accuracy: 9210/10000 (92.10%) [Error 7.90%]
+Epoch:152 Test set: Average loss: 0.2616, Accuracy: 9221/10000 (92.21%) [Error 7.79%]
+Epoch:153 Test set: Average loss: 0.2644, Accuracy: 9216/10000 (92.16%) [Error 7.84%]
+Epoch:154 Test set: Average loss: 0.2698, Accuracy: 9203/10000 (92.03%) [Error 7.97%]
+Epoch:155 Test set: Average loss: 0.2712, Accuracy: 9208/10000 (92.08%) [Error 7.92%]
+Epoch:156 Test set: Average loss: 0.2647, Accuracy: 9201/10000 (92.01%) [Error 7.99%]
+Epoch:157 Test set: Average loss: 0.2694, Accuracy: 9204/10000 (92.04%) [Error 7.96%]
+Epoch:158 Test set: Average loss: 0.2692, Accuracy: 9208/10000 (92.08%) [Error 7.92%]
+Epoch:159 Test set: Average loss: 0.2731, Accuracy: 9198/10000 (91.98%) [Error 8.02%]
+Epoch:160 Test set: Average loss: 0.2682, Accuracy: 9217/10000 (92.17%) [Error 7.83%]
+Epoch:161 Test set: Average loss: 0.2712, Accuracy: 9203/10000 (92.03%) [Error 7.97%]
+Epoch:162 Test set: Average loss: 0.2681, Accuracy: 9205/10000 (92.05%) [Error 7.95%]
+Epoch:163 Test set: Average loss: 0.2760, Accuracy: 9204/10000 (92.04%) [Error 7.96%]
+Epoch:164 Test set: Average loss: 0.2720, Accuracy: 9211/10000 (92.11%) [Error 7.89%]
+Epoch:165 Test set: Average loss: 0.2678, Accuracy: 9202/10000 (92.02%) [Error 7.98%]
+Epoch:166 Test set: Average loss: 0.2679, Accuracy: 9206/10000 (92.06%) [Error 7.94%]
+Epoch:167 Test set: Average loss: 0.2670, Accuracy: 9218/10000 (92.18%) [Error 7.82%]
+Epoch:168 Test set: Average loss: 0.2696, Accuracy: 9203/10000 (92.03%) [Error 7.97%]
+Epoch:169 Test set: Average loss: 0.2673, Accuracy: 9226/10000 (92.26%) [Error 7.74%]
+Epoch:170 Test set: Average loss: 0.2678, Accuracy: 9214/10000 (92.14%) [Error 7.86%]
+Epoch:171 Test set: Average loss: 0.2668, Accuracy: 9211/10000 (92.11%) [Error 7.89%]
+Epoch:172 Test set: Average loss: 0.2655, Accuracy: 9208/10000 (92.08%) [Error 7.92%]
+Epoch:173 Test set: Average loss: 0.2654, Accuracy: 9201/10000 (92.01%) [Error 7.99%]
+Epoch:174 Test set: Average loss: 0.2679, Accuracy: 9229/10000 (92.29%) [Error 7.71%]
+Epoch:175 Test set: Average loss: 0.2687, Accuracy: 9207/10000 (92.07%) [Error 7.93%]
+Epoch:176 Test set: Average loss: 0.2670, Accuracy: 9207/10000 (92.07%) [Error 7.93%]
+Epoch:177 Test set: Average loss: 0.2679, Accuracy: 9208/10000 (92.08%) [Error 7.92%]
+Epoch:178 Test set: Average loss: 0.2685, Accuracy: 9223/10000 (92.23%) [Error 7.77%]
+Epoch:179 Test set: Average loss: 0.2666, Accuracy: 9218/10000 (92.18%) [Error 7.82%]
+Epoch:180 Test set: Average loss: 0.2648, Accuracy: 9211/10000 (92.11%) [Error 7.89%]
+Epoch:181 Test set: Average loss: 0.2675, Accuracy: 9221/10000 (92.21%) [Error 7.79%]
+Epoch:182 Test set: Average loss: 0.2675, Accuracy: 9211/10000 (92.11%) [Error 7.89%]
+Epoch:183 Test set: Average loss: 0.2676, Accuracy: 9221/10000 (92.21%) [Error 7.79%]
+Epoch:184 Test set: Average loss: 0.2693, Accuracy: 9207/10000 (92.07%) [Error 7.93%]
+Epoch:185 Test set: Average loss: 0.2675, Accuracy: 9212/10000 (92.12%) [Error 7.88%]
+Epoch:186 Test set: Average loss: 0.2672, Accuracy: 9214/10000 (92.14%) [Error 7.86%]
+Epoch:187 Test set: Average loss: 0.2675, Accuracy: 9214/10000 (92.14%) [Error 7.86%]
+Epoch:188 Test set: Average loss: 0.2662, Accuracy: 9223/10000 (92.23%) [Error 7.77%]
+Epoch:189 Test set: Average loss: 0.2672, Accuracy: 9217/10000 (92.17%) [Error 7.83%]
+Epoch:190 Test set: Average loss: 0.2683, Accuracy: 9221/10000 (92.21%) [Error 7.79%]
+Epoch:191 Test set: Average loss: 0.2689, Accuracy: 9222/10000 (92.22%) [Error 7.78%]
+Epoch:192 Test set: Average loss: 0.2679, Accuracy: 9228/10000 (92.28%) [Error 7.72%]
+Epoch:193 Test set: Average loss: 0.2672, Accuracy: 9211/10000 (92.11%) [Error 7.89%]
+Epoch:194 Test set: Average loss: 0.2678, Accuracy: 9221/10000 (92.21%) [Error 7.79%]
+Epoch:195 Test set: Average loss: 0.2703, Accuracy: 9218/10000 (92.18%) [Error 7.82%]
+Epoch:196 Test set: Average loss: 0.2705, Accuracy: 9226/10000 (92.26%) [Error 7.74%]
+Epoch:197 Test set: Average loss: 0.2673, Accuracy: 9217/10000 (92.17%) [Error 7.83%]
+Epoch:198 Test set: Average loss: 0.2703, Accuracy: 9222/10000 (92.22%) [Error 7.78%]
+Epoch:199 Test set: Average loss: 0.2676, Accuracy: 9222/10000 (92.22%) [Error 7.78%]
+Epoch:200 Test set: Average loss: 0.2686, Accuracy: 9223/10000 (92.23%) [Error 7.77%]

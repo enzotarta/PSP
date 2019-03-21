@@ -1,0 +1,13 @@
+Files already downloaded and verified
+Epoch:1 Test set: Average loss: 1.1798, Accuracy: 5815/10000 (58.15%) [Error 41.85%]
+Epoch:2 Test set: Average loss: 1.0414, Accuracy: 6530/10000 (65.30%) [Error 34.70%]
+Epoch:3 Test set: Average loss: 1.1245, Accuracy: 6475/10000 (64.75%) [Error 35.25%]
+Epoch:4 Test set: Average loss: 0.6778, Accuracy: 7669/10000 (76.69%) [Error 23.31%]
+Epoch:5 Test set: Average loss: 0.6709, Accuracy: 7650/10000 (76.50%) [Error 23.50%]
+Epoch:6 Test set: Average loss: 0.6706, Accuracy: 7583/10000 (75.83%) [Error 24.17%]
+Epoch:7 Test set: Average loss: 0.8316, Accuracy: 7284/10000 (72.84%) [Error 27.16%]
+Epoch:8 Test set: Average loss: 0.6557, Accuracy: 7815/10000 (78.15%) [Error 21.85%]
+Epoch:9 Test set: Average loss: 0.8133, Accuracy: 7370/10000 (73.70%) [Error 26.30%]
+Epoch:10 Test set: Average loss: 0.9188, Accuracy: 7276/10000 (72.76%) [Error 27.24%]
+Epoch:11 Test set: Average loss: 0.6168, Accuracy: 7966/10000 (79.66%) [Error 20.34%]
+Epoch:12 Test set: Average loss: 0.7666, Accuracy: 7531/10000 (75.31%) [Error 24.69%]
