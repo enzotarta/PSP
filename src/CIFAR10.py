@@ -17,10 +17,11 @@ import random
 def train(args, model, device, train_loader, optimizer, epoch, mode=0, gamma_mul=0.1, startlr = 0.1):
     model.train()
     
-    gamma = gamma_mul
+    #gamma = gamma_mul
     for param_group in optimizer.param_groups:
-        if param_group['lr'] != startlr:
-    	    gamma = 0.0 #param_group['lr'] * gamma_mul
+        #if param_group['lr'] != startlr:
+    	    #gamma = 0.0 #
+        param_group['lr'] * gamma_mul
     
     
     for batch_idx, (data, target) in enumerate(train_loader):
@@ -74,8 +75,8 @@ def main():
                         help='input batch size for training (default: 128)')
     parser.add_argument('--test_batch_size', type=int, default=1000, metavar='TB',
                         help='input batch size for testing (default: 1000)')
-    parser.add_argument('--epochs', type=int, default=550, metavar='N',
-                        help='number of epochs to train (default: 550)')
+    parser.add_argument('--epochs', type=int, default=400, metavar='N',
+                        help='number of epochs to train (default: 400)')
     parser.add_argument('--lr', type=float, default=0.1, metavar='LR',
                         help='learning rate (default: 0.1)')
     parser.add_argument('--momentum', type=float, default=0.0, metavar='M',
@@ -168,7 +169,7 @@ def main():
       import rKREG_local
       model = rKREG_local.ResNet18().to(device)
     optimizer = optim.SGD(model.parameters(), lr=args.lr, momentum=args.momentum , weight_decay=args.weight_decay)
-    if args.sched: scheduler = optim.lr_scheduler.MultiStepLR(optimizer, milestones=[60,100,140], gamma=0.1) #[82,123,164]
+    if args.sched: scheduler = optim.lr_scheduler.MultiStepLR(optimizer, milestones=[100,200,300], gamma=0.1) #[82,123,164]
 
     for epoch in range(1, args.epochs + 1):
         if args.sched: scheduler.step()
