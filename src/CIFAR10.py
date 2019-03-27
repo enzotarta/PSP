@@ -17,11 +17,11 @@ import random
 def train(args, model, device, train_loader, optimizer, epoch, mode=0, gamma_mul=0.1, startlr = 0.1):
     model.train()
     
-    #gamma = gamma_mul
-    for param_group in optimizer.param_groups:
+    gamma = gamma_mul
+    #for param_group in optimizer.param_groups:
         #if param_group['lr'] != startlr:
     	    #gamma = 0.0 #
-        param_group['lr'] * gamma_mul
+        #gamma = param_group['lr'] * gamma_mul
     
     
     for batch_idx, (data, target) in enumerate(train_loader):
@@ -83,7 +83,7 @@ def main():
                         help='SGD momentum (default: 0.0)')
     parser.add_argument('--weight_decay', type=float, default=0.0, metavar='WD',
                         help='expriment modes')
-    parser.add_argument('--gamma', type=float, default=0.01, metavar='GM',
+    parser.add_argument('--gamma', type=float, default=0.001, metavar='GM',
                         help='gamma')
     parser.add_argument('--mode', type=int, default=0, metavar='MD',
                         help='expriment modes')
@@ -114,7 +114,7 @@ def main():
         torch.backends.cudnn.deterministic = True
         torch.backends.cudnn.benchmark = False
 
-    kwargs = {'num_workers': 2, 'pin_memory': True} if use_cuda else {}
+    kwargs = {'num_workers': 2, 'pin_memory': True} if use_cuda else {}#, 'pin_memory': True
     train_loader = torch.utils.data.DataLoader(
         datasets.CIFAR10('./data', train=True, download=True,
                        transform=transforms.Compose([
@@ -168,11 +168,36 @@ def main():
     elif args.mode == 11:      
       import rKREG_local
       model = rKREG_local.ResNet18().to(device)
+    elif args.mode == 12:
+      import rKREG_local2
+      model = rKREG_local2.ResNet18().to(device)
+    elif args.mode == 13:
+      import ALL_CNN_C_RBN_local
+      model = ALL_CNN_C_RBN_local.ALL_CNN_C().to(device)
+    elif args.mode == 14:
+      import densnetRBN_local
+      model = densnetRBN_local.DenseNet121().to(device)
+    elif args.mode == 15:
+      import densnetRBN_nolast
+      model = densnetRBN_nolast.DenseNet121().to(device)
+    elif args.mode == 16:
+      import resnetKuaRBN_nolast
+      model = resnetKuaRBN_nolast.ResNet18().to(device)
+    elif args.mode == 17:
+      import ALL_CNN_C_RBN_nolast
+      model = ALL_CNN_C_RBN_nolast.ALL_CNN_C().to(device)
+
     optimizer = optim.SGD(model.parameters(), lr=args.lr, momentum=args.momentum , weight_decay=args.weight_decay)
-    if args.sched: scheduler = optim.lr_scheduler.MultiStepLR(optimizer, milestones=[100,200,300], gamma=0.1) #[82,123,164]
+    ms = [150,250,350]
+    if args.sched: scheduler = optim.lr_scheduler.MultiStepLR(optimizer, milestones=ms, gamma=0.1) #[82,123,164]
 
     for epoch in range(1, args.epochs + 1):
         if args.sched: scheduler.step()
+        #if epoch == ms[1]+1:
+        #    for param_group in optimizer.param_groups:
+        #        param_group['weight_decay'] = 0.0005
+        #    args.gamma=0.0
+
         train(args, model, device, train_loader, optimizer, epoch, mode = args.mode, gamma_mul=args.gamma, startlr = args.lr)
         test(args, model, device, test_loader, epoch)
 
