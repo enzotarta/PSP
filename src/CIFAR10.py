@@ -75,8 +75,8 @@ def main():
                         help='input batch size for training (default: 128)')
     parser.add_argument('--test_batch_size', type=int, default=1000, metavar='TB',
                         help='input batch size for testing (default: 1000)')
-    parser.add_argument('--epochs', type=int, default=400, metavar='N',
-                        help='number of epochs to train (default: 400)')
+    parser.add_argument('--epochs', type=int, default=550, metavar='N',
+                        help='number of epochs to train (default: 550)')
     parser.add_argument('--lr', type=float, default=0.1, metavar='LR',
                         help='learning rate (default: 0.1)')
     parser.add_argument('--momentum', type=float, default=0.0, metavar='M',
@@ -181,11 +181,11 @@ def main():
       import densnetRBN_nolast
       model = densnetRBN_nolast.DenseNet121().to(device)
     elif args.mode == 16:
-      import resnetKuaRBN_nolast
-      model = resnetKuaRBN_nolast.ResNet18().to(device)
+      import rKREG_nolast_local2
+      model = rKREG_nolast_local2.ResNet18().to(device)
     elif args.mode == 17:
-      import ALL_CNN_C_RBN_nolast
-      model = ALL_CNN_C_RBN_nolast.ALL_CNN_C().to(device)
+      import ALL_CNN_C_RBN_nolast_local
+      model = ALL_CNN_C_RBN_nolast_local.ALL_CNN_C().to(device)
 
     optimizer = optim.SGD(model.parameters(), lr=args.lr, momentum=args.momentum , weight_decay=args.weight_decay)
     ms = [150,250,350]
