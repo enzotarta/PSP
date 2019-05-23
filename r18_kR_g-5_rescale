@@ -1,7 +1,0 @@
-Files already downloaded and verified
-Epoch:1 Test set: Average loss: 2.1532, Accuracy: 2894/10000 (28.94%) [Error 71.06%]
-Epoch:2 Test set: Average loss: 1.8913, Accuracy: 3778/10000 (37.78%) [Error 62.22%]
-Epoch:3 Test set: Average loss: 1.6323, Accuracy: 4884/10000 (48.84%) [Error 51.16%]
-Epoch:4 Test set: Average loss: 1.5772, Accuracy: 4736/10000 (47.36%) [Error 52.64%]
-Epoch:5 Test set: Average loss: 1.1444, Accuracy: 6186/10000 (61.86%) [Error 38.14%]
-Epoch:6 Test set: Average loss: 1.2108, Accuracy: 6301/10000 (63.01%) [Error 36.99%]
