@@ -1,0 +1,45 @@
+Downloading http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz to /home/perlo/data/FashionMNIST/raw/train-images-idx3-ubyte.gz
+Extracting /home/perlo/data/FashionMNIST/raw/train-images-idx3-ubyte.gz
+Downloading http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-labels-idx1-ubyte.gz to /home/perlo/data/FashionMNIST/raw/train-labels-idx1-ubyte.gz
+Extracting /home/perlo/data/FashionMNIST/raw/train-labels-idx1-ubyte.gz
+Downloading http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/t10k-images-idx3-ubyte.gz to /home/perlo/data/FashionMNIST/raw/t10k-images-idx3-ubyte.gz
+Extracting /home/perlo/data/FashionMNIST/raw/t10k-images-idx3-ubyte.gz
+Downloading http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/t10k-labels-idx1-ubyte.gz to /home/perlo/data/FashionMNIST/raw/t10k-labels-idx1-ubyte.gz
+Extracting /home/perlo/data/FashionMNIST/raw/t10k-labels-idx1-ubyte.gz
+Processing...
+Done!
+
+*****************
+LOG TRAINING NUMBER:  0 
+*****************
+
+Epoch:1 Train loss: 0.00660604 Regu: 4.20984878 Test loss: 0.00042254 Regu: 0.00360615 Error 15.32 % 
+Epoch:2 Train loss: 0.00376966 Regu: 5.22371578 Test loss: 0.00038959 Regu: 0.00338905 Error 14.35 % 
+Epoch:3 Train loss: 0.00320098 Regu: 5.38319539 Test loss: 0.00032498 Regu: 0.00413698 Error 11.96 % 
+Epoch:4 Train loss: 0.00285568 Regu: 5.78225284 Test loss: 0.00029809 Regu: 0.00369237 Error 10.92 % 
+Epoch:5 Train loss: 0.00262354 Regu: 6.07559458 Test loss: 0.00029167 Regu: 0.00389565 Error 10.74 % 
+Epoch:6 Train loss: 0.00241326 Regu: 6.62823618 Test loss: 0.00027247 Regu: 0.00431945 Error 9.78 % 
+Epoch:7 Train loss: 0.00226060 Regu: 7.05491714 Test loss: 0.00027318 Regu: 0.00473596 Error 9.83 % 
+Epoch:8 Train loss: 0.00210827 Regu: 7.61880096 Test loss: 0.00026479 Regu: 0.00479727 Error 9.63 % 
+Epoch:9 Train loss: 0.00197814 Regu: 8.29657673 Test loss: 0.00025852 Regu: 0.00494994 Error 9.33 % 
+Epoch:10 Train loss: 0.00183597 Regu: 9.01779660 Test loss: 0.00028039 Regu: 0.00586951 Error 10.35 % 
+Epoch:11 Train loss: 0.00173533 Regu: 9.80197510 Test loss: 0.00024485 Regu: 0.00537376 Error 8.73 % 
+Epoch:12 Train loss: 0.00161590 Regu: 10.60269287 Test loss: 0.00026573 Regu: 0.00563453 Error 9.36 % 
+Epoch:13 Train loss: 0.00150229 Regu: 11.58190425 Test loss: 0.00025584 Regu: 0.00574894 Error 8.67 % 
+Epoch:14 Train loss: 0.00141052 Regu: 12.38148471 Test loss: 0.00025729 Regu: 0.00593043 Error 9.41 % 
+Epoch:15 Train loss: 0.00128912 Regu: 13.50982297 Test loss: 0.00025073 Regu: 0.00674189 Error 8.35 % 
+Epoch:16 Train loss: 0.00120156 Regu: 14.55835991 Test loss: 0.00024740 Regu: 0.00639809 Error 8.55 % 
+Epoch:17 Train loss: 0.00111662 Regu: 15.52142854 Test loss: 0.00027571 Regu: 0.00724958 Error 9.20 % 
+Epoch:18 Train loss: 0.00101755 Regu: 16.61977161 Test loss: 0.00027784 Regu: 0.00745664 Error 9.05 % 
+Epoch:19 Train loss: 0.00093460 Regu: 17.69820530 Test loss: 0.00027068 Regu: 0.00833727 Error 8.65 % 
+Epoch:20 Train loss: 0.00083851 Regu: 18.96326181 Test loss: 0.00027940 Regu: 0.00855226 Error 8.40 % 
+Epoch:21 Train loss: 0.00076992 Regu: 20.05823091 Test loss: 0.00027778 Regu: 0.00856505 Error 8.51 % 
+Epoch:22 Train loss: 0.00069565 Regu: 21.12268921 Test loss: 0.00027763 Regu: 0.00895491 Error 8.15 % 
+Epoch:23 Train loss: 0.00063858 Regu: 22.30017170 Test loss: 0.00029228 Regu: 0.00885904 Error 8.09 % 
+Epoch:24 Train loss: 0.00057508 Regu: 23.36988557 Test loss: 0.00030545 Regu: 0.00908046 Error 8.56 % 
+Epoch:25 Train loss: 0.00050388 Regu: 24.29698201 Test loss: 0.00030611 Regu: 0.00923685 Error 8.60 % 
+Epoch:26 Train loss: 0.00047175 Regu: 25.20996862 Test loss: 0.00030496 Regu: 0.00937878 Error 8.45 % 
+Epoch:27 Train loss: 0.00039499 Regu: 26.25310321 Test loss: 0.00031038 Regu: 0.00969613 Error 8.08 % 
+Epoch:28 Train loss: 0.00035467 Regu: 26.90311857 Test loss: 0.00031863 Regu: 0.00967587 Error 8.10 % 
+Epoch:29 Train loss: 0.00032541 Regu: 27.33690195 Test loss: 0.00036267 Regu: 0.01003145 Error 8.75 % 
+Epoch:30 Train loss: 0.00026334 Regu: 28.33401214 Test loss: 0.00034982 Regu: 0.01030878 Error 8.84 % 
