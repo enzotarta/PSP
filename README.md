@@ -1,4 +1,4 @@
-### Post-synaptic potential
+# Post-synaptic potential
 
 This repository contains the PyTorch implementation for the post-synaptic potential (PSP) regularization technique.
 All the differentiation is performed by autograd: the post-synaptic potentials are passed along with the overall output of the network, during the forward propagation step.
